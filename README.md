@@ -64,11 +64,11 @@ cd SpectreConky
 <p>Then, run the included setup script:</p>
 
 ```bash
-chmod +x installer/ignite-spectre.sh
+chmod +x ./spectre-setup.sh
 ```
 
 ```bash
-./installer/ignite-spectre.sh
+./spectre-setup.sh
 ```
 
 <p>The script will:</p>
