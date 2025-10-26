@@ -1,48 +1,84 @@
-# 🌌 SpectreConky
+<h1 align="center">🌌 SpectreConky</h1>
 
-![SpectreConky Preview](https://i.ibb.co/WpjR6Lp6/Screenshot-2025-10-26-15-45-02.png)
-![SpectreConky Preview2](https://i.ibb.co/CKC7sD1B/Screenshot-2025-10-26-16-58-17.png)
+<p align="center">
+  <img src="https://i.ibb.co/WpjR6Lp6/Screenshot-2025-10-26-15-45-02.png" alt="SpectreConky Preview" width="45%" style="margin-right: 10px; border-radius: 8px;">
+  <img src="https://i.ibb.co/CKC7sD1B/Screenshot-2025-10-26-16-58-17.png" alt="SpectreConky Preview2" width="45%" style="margin-left: 10px; border-radius: 8px;">
+</p>
 
-**SpectreConky** is a minimalist, futuristic Conky widget inspired by Rainmeter’s “Spectre” skin — redesigned for Linux desktops.  
-It displays the **day**, **date**, and **time** in bold Researcher font, styled white-on-black with full transparency and perfect centering.  
-Lightweight, auto-starting, and visually striking — ideal for modern Linux setups.
+<p align="center">
+  <strong>SpectreConky</strong> is a minimalist, futuristic Conky widget inspired by Rainmeter’s “Spectre” skin — redesigned for Linux desktops.<br>
+  It displays the <strong>day</strong>, <strong>date</strong>, and <strong>time</strong> in bold Researcher font, styled white-on-black with full transparency and perfect centering.<br>
+  Lightweight, auto-starting, and visually striking — ideal for modern Linux setups.
+</p>
 
----
+<hr>
 
-## ✨ Features
+<h2>✨ Features</h2>
 
-- 🕒 Large, stretched day of the week (e.g., **SUNDAY**)
-- 📅 Clean date below (e.g., **26 OCTOBER, 2025.**)
-- ⏰ Centered time with dashes (**- 10:51 -**)
-- ⚡ Transparent background — no borders
-- 💾 Auto-start on boot
-- 🧠 Managed via **Conky Manager 2**
-- 🧩 Uses **Researcher Regular** futuristic font
-- 💡 Inspired by the *Spectre Rainmeter* aesthetic
+<ul>
+  <li>🕒 Large, stretched day of the week (e.g., <strong>SUNDAY</strong>)</li>
+  <li>📅 Clean date below (e.g., <strong>26 OCTOBER, 2025.</strong>)</li>
+  <li>⏰ Centered time with dashes (<strong>- 10:51 -</strong>)</li>
+  <li>⚡ Transparent background — no borders</li>
+  <li>💾 Auto-start on boot</li>
+  <li>🧠 Managed via <strong>Conky Manager 2</strong></li>
+  <li>🧩 Uses <strong>Researcher Regular</strong> futuristic font</li>
+  <li>💡 Inspired by the <em>Spectre Rainmeter</em> aesthetic</li>
+</ul>
 
----
+<hr>
 
-## 🧰 Requirements
+<h2>🧰 Requirements</h2>
 
-- **Conky** (`conky-all` package)
-- **Conky Manager 2** *(required for easy widget control)*
-- **Font Awesome** *(for optional icons)*
-- **Researcher-Regular.ttf** *(included in this repository)*
+<ul>
+  <li><strong>Conky</strong> (<code>conky-all</code> package)</li>
+  <li><strong>Conky Manager 2</strong> <em>(required for easy widget control)</em></li>
+  <li><strong>Font Awesome</strong> <em>(for optional icons)</em></li>
+  <li><strong>Researcher-Regular.ttf</strong> <em>(included in this repository)</em></li>
+</ul>
 
-**Tested on:**
-- Linux Lite 7.4
-- Ubuntu 22.04+
-- Arch Linux
-- Fedora / RHEL
+<p><strong>Tested on:</strong></p>
+<ul>
+  <li>Linux Lite 7.4</li>
+  <li>Ubuntu 22.04+</li>
+  <li>Arch Linux</li>
+  <li>Fedora / RHEL</li>
+</ul>
 
----
+<hr>
 
-## 🚀 Installation
+<h2>📦 Installation</h2>
 
-### 🔧 Auto Install (Recommended)
+<h3>🔧 Auto Install (Recommended)</h3>
 
-Run the included setup script:
+<p>First, clone the repository from GitHub:</p>
+<p>First, clone the repository from GitHub:</p>
+
+```bash
+git clone https://github.com/chrizmonsaji/SpectreConky.git
+```
+
+```bash
+cd SpectreConky
+```
+
+<p>Then, run the included setup script:</p>
 
 ```bash
 chmod +x installer/ignite-spectre.sh
+```
+
+```bash
 ./installer/ignite-spectre.sh
+```
+
+<p>The script will:</p>
+
+<ul>
+  <li>Install Conky, Conky Manager 2, and required dependencies</li>
+  <li>Copy configuration files to <code>~/.config/conky/</code></li>
+  <li>Install the Researcher font system-wide</li>
+  <li>Add SpectreConky to your startup applications</li>
+  <li>Launch the widget automatically</li>
+</ul>
+```
