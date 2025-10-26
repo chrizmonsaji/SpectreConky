@@ -51,7 +51,6 @@
 <h3>🔧 Auto Install (Recommended)</h3>
 
 <p>First, clone the repository from GitHub:</p>
-<p>First, clone the repository from GitHub:</p>
 
 ```bash
 git clone https://github.com/chrizmonsaji/SpectreConky.git
