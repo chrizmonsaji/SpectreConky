@@ -2,7 +2,6 @@
 
 <p align="center">
   <img src="https://i.ibb.co/WpjR6Lp6/Screenshot-2025-10-26-15-45-02.png" alt="SpectreConky Preview" width="45%" style="margin-right: 10px; border-radius: 8px;">
-  <img src="https://i.ibb.co/CKC7sD1B/Screenshot-2025-10-26-16-58-17.png" alt="SpectreConky Preview2" width="45%" style="margin-left: 10px; border-radius: 8px;">
 </p>
 
 <p align="center">
